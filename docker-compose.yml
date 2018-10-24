@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  couchdb:
+    image: couchdb:2
+    container_name: cern_db
+    ports:
+      - 5984:5984
