@@ -1,0 +1,34 @@
+{
+  "name": "cern-server",
+  "version": "1.0.0",
+  "description": "CouchDB, Express, React and Node.js server boilerplate",
+  "main": "source/index.js",
+  "scripts": {
+    "start": "node source",
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipecorrea/cern.git"
+  },
+  "keywords": [
+    "couchdb",
+    "express",
+    "react",
+    "node.js",
+    "server",
+    "boilerplate"
+  ],
+  "author": "Filipe Corrêa <filipecorrea@me.com> ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/filipecorrea/cern/issues"
+  },
+  "homepage": "https://github.com/filipecorrea/cern#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}
